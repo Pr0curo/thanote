@@ -1,5 +1,5 @@
 # thanote
-never forgive, never forget
+never forget, never forgive (or umh maybe forgive if its ok)
 
 
 ## idee
