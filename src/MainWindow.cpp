@@ -4,7 +4,7 @@ MainWindow::MainWindow()
         : m_VBox(Gtk::ORIENTATION_VERTICAL),
           m_Button_Quit("Quit")
 {
-    set_title("MAinWindow - Example");
+    set_title("MainWindow - Example");
     set_border_width(5);
     set_default_size(400, 200);
 

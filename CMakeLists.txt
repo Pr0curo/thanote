@@ -5,6 +5,10 @@ project(thanote VERSION 0.0.1 LANGUAGES CXX)
 FIND_PACKAGE(PkgConfig REQUIRED)
 PKG_CHECK_MODULES(GTK3 REQUIRED gtkmm-3.0)
 
+# add all conan related libraries
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+
 # Setup CMake to use GTK+, tell the compiler where to look for headers
 # and to the linker where to look for libraries
 INCLUDE_DIRECTORIES(${GTK3_INCLUDE_DIRS})
@@ -16,5 +20,5 @@ ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
 add_executable(thanote src/main.cpp src/MainWindow.cpp)
 target_compile_features(thanote PRIVATE cxx_auto_type)
 
-# find_package(JSONUtils 1.0 REQUIRED)
-TARGET_LINK_LIBRARIES(thanote ${GTK3_LIBRARIES})
+# Bibliotheken linken
+TARGET_LINK_LIBRARIES(thanote ${GTK3_LIBRARIES} ${CONAN_LIBS})

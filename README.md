@@ -19,3 +19,16 @@ clonen des repositories
 externes build dir erstellen
 
 cmake die die buildsystemdatein erstellen lassen via `cmake ../path/to/thante_src/ -G"Ninja"` anschließend `ninja` ausführen
+
+### using conan 
+im build dir:
+`conan install .. --build=missing`
+
+see this solution when conan is donwloading/building with the wrong compiler
+
+ https://github.com/conan-io/conan/issues/2760#issuecomment-381397855
+
+
+
+
+
