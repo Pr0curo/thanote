@@ -1,5 +1,5 @@
  [requires]
- sqlitecpp/2.4.0@bincrafters/stable
+ sqlitecpp/2.4.0
 
  [generators]
  cmake

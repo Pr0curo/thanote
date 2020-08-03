@@ -19,4 +19,3 @@ protected:
     Gtk::Button m_Button_Quit;
 
 };
-#pragma clang diagnostic pop
