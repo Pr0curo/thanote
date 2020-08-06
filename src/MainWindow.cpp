@@ -1,3 +1,6 @@
+// #include <gtest/gtest.h>
+#include <plog/log.h>
+
 #include "MainWindow.h"
 
 MainWindow::MainWindow()
@@ -22,5 +25,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_button_quit()
 {
-  hide();
+    PLOGD << "Quit button clicked";
+    hide();
 }
+
+
