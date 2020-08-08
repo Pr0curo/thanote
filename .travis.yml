@@ -7,7 +7,7 @@ before_install:
   - sudo apt-get -y install libgtkmm-3.0-dev
 
 compiler:
-  - gcc
+  - clang
 install:
 # Install conan
   - pip install conan
