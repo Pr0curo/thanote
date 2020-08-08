@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13...3.16 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.12.4...3.16 FATAL_ERROR)
 project(thanote VERSION 0.0.1 LANGUAGES CXX)
 
 # Use the package PkgConfig to detect GTK+ headers/library files
