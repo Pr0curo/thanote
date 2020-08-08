@@ -36,8 +36,5 @@ cmake-build-*
 bin
 
 # editor/ide specific files
-**/.vscode
-**/.idea
-/.idea/
-/.vscode/
-.idea/workspace.xml
+**/.vscode/
+**/.idea/

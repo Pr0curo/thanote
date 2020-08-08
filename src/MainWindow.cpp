@@ -1,5 +1,6 @@
 // #include <gtest/gtest.h>
 #include <plog/log.h>
+#include <sol/sol.hpp>
 
 #include "MainWindow.h"
 
@@ -17,6 +18,16 @@ MainWindow::MainWindow()
     m_Button_Quit.signal_clicked().connect( sigc::mem_fun(*this, &MainWindow::on_button_quit) );
 
     this->show_all_children();
+
+    this->set_position(Gtk::WIN_POS_CENTER);
+
+    _lua.open_libraries(sol::lib::base);
+    _lua["position"] = Gtk::WIN_POS_CENTER;
+
+    _lua.script(R"(
+        print("Window Position ist set to '", position, "'")
+    )");
+
 }
 
 MainWindow::~MainWindow()

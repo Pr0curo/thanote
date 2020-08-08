@@ -1,6 +1,6 @@
 #pragma once
 #include <gtkmm.h>
-
+#include <sol/sol.hpp>
 
 class MainWindow : public Gtk::Window
 {
@@ -15,5 +15,7 @@ protected:
     //Child widgets:
     Gtk::Box m_VBox;
     Gtk::Button m_Button_Quit;
+
+    sol::state _lua;
 
 };
