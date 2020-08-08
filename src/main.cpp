@@ -1,5 +1,5 @@
 #include <iostream>
-#include <plog/log.h>
+#include <plog/Log.h>
 #include <SQLiteCpp/SQLiteCpp.h>
 
 #include "MainWindow.h"

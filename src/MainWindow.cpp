@@ -1,5 +1,5 @@
 // #include <gtest/gtest.h>
-#include <plog/log.h>
+#include <plog/Log.h>
 #include <sol/sol.hpp>
 
 #include "MainWindow.h"
