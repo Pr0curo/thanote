@@ -13,11 +13,13 @@ install:
   - pip install conan
 # Automatic detection of your arch, compiler, etc.
   - conan user
+
+  - pip install ninja # as used @home, to avoid complications
 script:
 # Download dependencies and build project
   - conan install .
 # Call your build system
-  - cmake . -G "Unix Makefiles"
+  - cmake . -G "Ninja"
   - cmake --build .
 # Run your tests
   - ctest .
