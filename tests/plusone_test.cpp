@@ -1,8 +1,9 @@
-#include <gtest/gtest.h>
+#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
+#include <catch2/catch.hpp>
 
 unsigned int plusone(unsigned int a);
 
-TEST(pl, plusone)
+TEST_CASE("pl", "plusone")
 {
-    EXPECT_EQ(plusone(3), 4);
+    REQUIRE(plusone(3) == 4); 
 }
