@@ -9,15 +9,13 @@ int main(int argc, char *argv[])
     plog::init(plog::debug, "log.txt");
 
     PLOGD << "starting thanote";
-    PLOGD << "SQlite3 version " << SQLite::VERSION << " (" << SQLite::getLibVersion() << ")" << std::endl;
-    PLOGD << "SQliteC++ version " << SQLITECPP_VERSION << std::endl;
-
-    std::cout << "hello world, oder lass es, oder liebe es\n";
+    PLOGD << "SQlite3 version " << SQLite::VERSION << " (" << SQLite::getLibVersion() << ")";
+    PLOGD << "SQliteC++ version " << SQLITECPP_VERSION;
     
     auto app = Gtk::Application::create(argc, argv, "org.gtkmm.example");
-    int a = 17;
-    a++;
     MainWindow mw;
+    int return_code = app->run(mw);
 
-    return app->run(mw);
+    PLOGD << "ending thanote";
+    return return_code;
 }
