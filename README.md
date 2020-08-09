@@ -1,6 +1,7 @@
 # thanote
 never forget, never forgive (or umh maybe forgive if its ok)
 
+[![Build Status](https://travis-ci.com/Pr0curo/thanote.svg?branch=dev)](https://travis-ci.com/Pr0curo/thanote)
 
 ## idee
 gtk3 fürs ui
