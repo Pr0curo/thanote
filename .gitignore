@@ -36,5 +36,5 @@ cmake-build-*
 bin
 
 # editor/ide specific files
-**/.vscode/
+# **/.vscode/  # lets get this checked in in git, as the configuration helps immensly, and i dont want to lose it
 **/.idea/

@@ -1,7 +1,6 @@
 [requires]
 sqlitecpp/2.4.0
 plog/1.1.5 
-# gtest/1.10.0 
 sol2/3.2.1 
 Catch2/2.11.1@catchorg/stable
 

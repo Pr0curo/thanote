@@ -32,7 +32,9 @@ TARGET_COMPILE_FEATURES(thanote PRIVATE cxx_auto_type
 # Bibliotheken linken
 TARGET_LINK_LIBRARIES(thanote ${GTK3_LIBRARIES} ${CONAN_LIBS})
 
-
+# to help find the include paths we are leveraging CMAKE and let it generate the compile_commands.json for us.
+# dont forget to let vscode know where to find it
+SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 #------------------------------------------------------------------------------
 # add testing
 #------------------------------------------------------------------------------
