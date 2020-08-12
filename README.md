@@ -30,5 +30,7 @@ see this solution when conan is donwloading/building with the wrong compiler
  https://github.com/conan-io/conan/issues/2760#issuecomment-381397855
 
 
+## documentation
 
-
+The documentation is done in the [project-wiki](https://github.com/Pr0curo/thanote/wiki).
+Please create an issue if something is missing for you. Currently the documentation is not exhaustive.
