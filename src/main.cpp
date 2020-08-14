@@ -16,6 +16,8 @@ int main(int argc, char *argv[])
     MainWindow mw;
     int return_code = app->run(mw);
 
+    int x = 17;
+
     PLOGD << "ending thanote";
     return return_code;
 }

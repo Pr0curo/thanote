@@ -6,7 +6,8 @@
 
 MainWindow::MainWindow()
         : m_VBox(Gtk::ORIENTATION_VERTICAL),
-          m_Button_Quit("Quit")
+          m_Button_Quit("Quit"),
+          m_Menu(nullptr)
 {
     set_title("MainWindow - Example");
     set_border_width(5);
@@ -28,7 +29,14 @@ MainWindow::MainWindow()
         print("Window Position ist set to '", position, "'")
     )");
 
+    auto action_group = Gio::SimpleActionGroup::create();
+    action_group->add_action("ende", sigc::mem_fun(*this, &MainWindow::on_button_quit));
+
+    insert_action_group("examplepopup", action_group);
+
 }
+
+
 
 MainWindow::~MainWindow()
 {

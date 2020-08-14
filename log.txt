@@ -1,0 +1,60 @@
+﻿2020-08-12 21:16:59.390 DEBUG [10012] [main@11] starting thanote
+2020-08-12 21:16:59.392 DEBUG [10012] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:16:59.392 DEBUG [10012] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:17:04.134 DEBUG [10012] [MainWindow::on_button_quit@39] Quit button clicked
+2020-08-12 21:17:04.148 DEBUG [10012] [main@19] ending thanote
+2020-08-12 21:17:41.994 DEBUG [9160] [main@11] starting thanote
+2020-08-12 21:17:41.994 DEBUG [9160] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:17:41.994 DEBUG [9160] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:17:48.973 DEBUG [9160] [MainWindow::on_button_quit@39] Quit button clicked
+2020-08-12 21:17:48.985 DEBUG [9160] [main@19] ending thanote
+2020-08-12 21:18:10.007 DEBUG [13292] [main@11] starting thanote
+2020-08-12 21:18:10.008 DEBUG [13292] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:18:10.008 DEBUG [13292] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:18:16.646 DEBUG [13292] [MainWindow::on_button_quit@39] Quit button clicked
+2020-08-12 21:18:16.661 DEBUG [13292] [main@19] ending thanote
+2020-08-12 21:25:12.250 DEBUG [11764] [main@11] starting thanote
+2020-08-12 21:25:12.250 DEBUG [11764] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:25:12.250 DEBUG [11764] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:25:16.681 DEBUG [11764] [MainWindow::on_button_quit@39] Quit button clicked
+2020-08-12 21:25:16.692 DEBUG [11764] [main@19] ending thanote
+2020-08-12 21:32:05.325 DEBUG [9032] [main@11] starting thanote
+2020-08-12 21:32:05.325 DEBUG [9032] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:32:05.325 DEBUG [9032] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:32:07.911 DEBUG [9032] [MainWindow::on_button_quit@43] Quit button clicked
+2020-08-12 21:32:07.921 DEBUG [9032] [main@19] ending thanote
+2020-08-12 21:33:15.477 DEBUG [280] [main@11] starting thanote
+2020-08-12 21:33:15.477 DEBUG [280] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:33:15.477 DEBUG [280] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:33:19.597 DEBUG [280] [MainWindow::on_button_quit@43] Quit button clicked
+2020-08-12 21:33:19.608 DEBUG [280] [main@19] ending thanote
+2020-08-12 21:33:56.412 DEBUG [8360] [main@11] starting thanote
+2020-08-12 21:33:56.412 DEBUG [8360] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-12 21:33:56.412 DEBUG [8360] [main@13] SQliteC++ version 2.04.00
+2020-08-12 21:33:58.902 DEBUG [8360] [MainWindow::on_button_quit@45] Quit button clicked
+2020-08-12 21:33:58.913 DEBUG [8360] [main@19] ending thanote
+2020-08-14 21:17:49.723 DEBUG [3288] [main@11] starting thanote
+2020-08-14 21:17:49.723 DEBUG [3288] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-14 21:17:49.724 DEBUG [3288] [main@13] SQliteC++ version 2.04.00
+2020-08-14 21:17:59.665 DEBUG [3288] [MainWindow::on_button_quit@47] Quit button clicked
+2020-08-14 21:17:59.679 DEBUG [3288] [main@19] ending thanote
+2020-08-14 21:18:20.222 DEBUG [12812] [main@11] starting thanote
+2020-08-14 21:18:20.222 DEBUG [12812] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-14 21:18:20.223 DEBUG [12812] [main@13] SQliteC++ version 2.04.00
+2020-08-14 21:20:32.935 DEBUG [10396] [main@11] starting thanote
+2020-08-14 21:20:32.935 DEBUG [10396] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-14 21:20:32.935 DEBUG [10396] [main@13] SQliteC++ version 2.04.00
+2020-08-14 21:20:39.177 DEBUG [10396] [MainWindow::on_button_quit@47] Quit button clicked
+2020-08-14 21:20:39.191 DEBUG [10396] [main@19] ending thanote
+2020-08-14 21:22:05.046 DEBUG [1572] [main@11] starting thanote
+2020-08-14 21:22:05.046 DEBUG [1572] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-14 21:22:16.696 DEBUG [1572] [main@13] SQliteC++ version 2.04.00
+2020-08-14 21:22:43.694 DEBUG [1572] [MainWindow::on_button_quit@47] Quit button clicked
+2020-08-14 21:23:35.238 DEBUG [9720] [main@11] starting thanote
+2020-08-14 21:23:35.239 DEBUG [9720] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-14 21:23:35.239 DEBUG [9720] [main@13] SQliteC++ version 2.04.00
+2020-08-14 21:23:42.734 DEBUG [9720] [MainWindow::on_button_quit@47] Quit button clicked
+2020-08-14 21:25:12.527 DEBUG [10068] [main@11] starting thanote
+2020-08-14 21:25:12.528 DEBUG [10068] [main@12] SQlite3 version 3.30.1 (3.30.1)
+2020-08-14 21:25:12.528 DEBUG [10068] [main@13] SQliteC++ version 2.04.00
+2020-08-14 21:25:17.837 DEBUG [10068] [MainWindow::on_button_quit@47] Quit button clicked

@@ -1,0 +1,34 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		
+
+	{
+		"name": "(gdb) Bash unter Windows – starten",
+		"type": "cppdbg",
+		"request": "launch",
+		"program": "${workspaceFolder}\\build\\bin\\thanote.exe",
+		"args": [],
+		"stopAtEntry": false,
+		"cwd": "${workspaceFolder}",
+		"environment": [],
+		"externalConsole": false,
+		"pipeTransport": {
+			"debuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+			"pipeProgram": "C:/msys64/msys2_shell.cmd",
+			"pipeArgs": ["-defterm", "-mingw64", "-no-start", "-here", "-c"],
+			"pipeCwd": ""
+		},
+		"setupCommands": [
+			{
+				"description": "Automatische Strukturierung und Einrückung für \"gdb\" aktivieren",
+				"text": "-enable-pretty-printing",
+				"ignoreFailures": true
+			}
+		]
+	}
+	]
+}
