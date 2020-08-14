@@ -7,6 +7,7 @@
 MainWindow::MainWindow()
         : m_VBox(Gtk::ORIENTATION_VERTICAL),
           m_Button_Quit("Quit"),
+          m_btn_add_item("Add Item"),
           m_Menu(nullptr)
 {
     set_title("MainWindow - Example");
@@ -15,8 +16,10 @@ MainWindow::MainWindow()
 
     add(m_VBox);
     m_VBox.pack_start(m_Button_Quit, Gtk::PACK_SHRINK);
+    m_VBox.pack_start(m_btn_add_item, Gtk::PACK_SHRINK);
 
     m_Button_Quit.signal_clicked().connect( sigc::mem_fun(*this, &MainWindow::on_button_quit) );
+    m_btn_add_item.signal_clicked().connect( sigc::mem_fun(*this, &MainWindow::on_button_add_item) );
 
     this->show_all_children();
 
@@ -29,10 +32,10 @@ MainWindow::MainWindow()
         print("Window Position ist set to '", position, "'")
     )");
 
-    auto action_group = Gio::SimpleActionGroup::create();
-    action_group->add_action("ende", sigc::mem_fun(*this, &MainWindow::on_button_quit));
+    // auto action_group = Gio::SimpleActionGroup::create();
+    // action_group->add_action("ende", sigc::mem_fun(*this, &MainWindow::on_button_quit));
 
-    insert_action_group("examplepopup", action_group);
+    // insert_action_group("examplepopup", action_group);
 
 }
 
@@ -48,4 +51,12 @@ void MainWindow::on_button_quit()
     hide();
 }
 
+void MainWindow::on_button_add_item()
+{
+    PLOGD << "Add Item button clicked";
+    
+    Gtk::MessageDialog dialog(*this, "This is an INFO MessageDialog");
+    dialog.set_secondary_text("And this is the secondary text that explains things.");
 
+    dialog.run();
+}

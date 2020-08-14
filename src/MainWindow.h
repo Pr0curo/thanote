@@ -11,10 +11,13 @@ public:
 protected:
     //Signal handlers:
     void on_button_quit();
+    void on_button_add_item();
+
 
     //Child widgets:
     Gtk::Box m_VBox;
     Gtk::Button m_Button_Quit;
+    Gtk::Button m_btn_add_item;
 
     Gtk::Menu* m_Menu;
 
