@@ -13,7 +13,7 @@
 		"program": "${workspaceFolder}\\build\\bin\\thanote.exe",
 		"args": [],
 		"stopAtEntry": false,
-		"cwd": "${workspaceFolder}",
+		"cwd": "${workspaceFolder}\\build\\bin",
 		"environment": [],
 		"externalConsole": false,
 		"pipeTransport": {

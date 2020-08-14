@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
     plog::init(plog::debug, "log.txt");
 
-    PLOGD << "starting thanote";
+    PLOGD << "========================== starting thanote ==========================";
     PLOGD << "SQlite3 version " << SQLite::VERSION << " (" << SQLite::getLibVersion() << ")";
     PLOGD << "SQliteC++ version " << SQLITECPP_VERSION;
     
