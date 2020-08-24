@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    plog::init(plog::debug, "log.txt");
+    plog::init(plog::debug, "thanote.log");
 
     PLOGD << "========================== starting thanote ==========================";
     PLOGD << "SQlite3 version " << SQLite::VERSION << " (" << SQLite::getLibVersion() << ")";

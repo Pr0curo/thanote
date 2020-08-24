@@ -40,3 +40,7 @@ bin
 **/.idea/
 **/build/
 **/Testing/
+
+# exclude the log
+*.log
+log.txt
