@@ -32,11 +32,6 @@ MainWindow::MainWindow()
         print("Window Position ist set to '", position, "'")
     )");
 
-    // auto action_group = Gio::SimpleActionGroup::create();
-    // action_group->add_action("ende", sigc::mem_fun(*this, &MainWindow::on_button_quit));
-
-    // insert_action_group("examplepopup", action_group);
-
 }
 
 
@@ -47,13 +42,13 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_button_quit()
 {
-    PLOGD << "Quit button clicked";
+    PLOGD << "[Quit button] clicked";
     hide();
 }
 
 void MainWindow::on_button_add_item()
 {
-    PLOGD << "Add Item button clicked";
+    PLOGD << "[Add Item button] clicked";
     
     Gtk::MessageDialog dialog(*this, "This is an INFO MessageDialog");
     dialog.set_secondary_text("And this is the secondary text that explains things.");
