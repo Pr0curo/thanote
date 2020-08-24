@@ -12,11 +12,9 @@ int main(int argc, char *argv[])
     PLOGD << "SQlite3 version " << SQLite::VERSION << " (" << SQLite::getLibVersion() << ")";
     PLOGD << "SQliteC++ version " << SQLITECPP_VERSION;
     
-    auto app = Gtk::Application::create(argc, argv, "org.gtkmm.example");
+    auto app = Gtk::Application::create(argc, argv, "github.com.Pr0curo.thanote.pre_alpha");
     MainWindow mw;
     int return_code = app->run(mw);
-
-    int x = 17;
 
     PLOGD << "ending thanote";
     return return_code;
