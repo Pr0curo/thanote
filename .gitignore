@@ -38,3 +38,9 @@ bin
 # editor/ide specific files
 # **/.vscode/  # lets get this checked in in git, as the configuration helps immensly, and i dont want to lose it
 **/.idea/
+**/build/
+**/Testing/
+
+# exclude the log
+*.log
+log.txt

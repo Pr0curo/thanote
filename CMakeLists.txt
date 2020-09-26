@@ -21,6 +21,7 @@ ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
 ADD_EXECUTABLE(thanote 	src/main.cpp 
 						src/MainWindow.cpp
 						src/plusone.cpp
+						src/ThanoteApplication.cpp
 						)
 
 # this makes sure cmake choses the right cpp standard (ie c++11 or c++14 etc.) for details see here

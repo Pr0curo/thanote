@@ -34,3 +34,8 @@ see this solution when conan is donwloading/building with the wrong compiler
 
 The documentation is done in the [project-wiki](https://github.com/Pr0curo/thanote/wiki).
 Please create an issue if something is missing for you. Currently the documentation is not exhaustive.
+
+
+-------
+
+sub-library for data: pecc (first letters from 'Proxima Midnight', 'Ebony Maw', 'Corvus Glaive' & 'Cull Obsidian' -- Thanos' helpers in Infinity Wars)

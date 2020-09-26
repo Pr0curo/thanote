@@ -1,3 +1,8 @@
 {
-	"C_Cpp.errorSquiggles": "Disabled"
+	"C_Cpp.errorSquiggles": "Disabled",
+	"cmake.configureOnOpen": false,
+	"telemetry.enableCrashReporter": false,
+
+	"terminal.integrated.shell.windows": "C:\\msys64\\msys2_shell.cmd",
+	"terminal.integrated.shellArgs.windows": ["-defterm", "-mingw64", "-no-start", "-here"]
 }
