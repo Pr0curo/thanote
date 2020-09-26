@@ -2,7 +2,7 @@
 #include <plog/Log.h>
 #include <SQLiteCpp/SQLiteCpp.h>
 
-#include "MainWindow.h"
+#include "ThanoteApplication.h"
 
 int main(int argc, char *argv[])
 {
@@ -12,9 +12,8 @@ int main(int argc, char *argv[])
     PLOGD << "SQlite3 version " << SQLite::VERSION << " (" << SQLite::getLibVersion() << ")";
     PLOGD << "SQliteC++ version " << SQLITECPP_VERSION;
     
-    auto app = Gtk::Application::create(argc, argv, "github.com.Pr0curo.thanote.pre_alpha");
-    MainWindow mw;
-    int return_code = app->run(mw);
+    auto app = ThanoteApplication::create();
+    int return_code = app->run();
 
     PLOGD << "ending thanote";
     return return_code;
