@@ -17,6 +17,10 @@ LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
 # Add other flags to the compiler
 ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
 
+# include pecc
+add_subdirectory("lib/pecc/")
+
+
 # add every needed sourcefile here
 ADD_EXECUTABLE(thanote 	src/main.cpp 
 						src/MainWindow.cpp
@@ -31,7 +35,7 @@ TARGET_COMPILE_FEATURES(thanote PRIVATE cxx_auto_type
 										)
 
 # Bibliotheken linken
-TARGET_LINK_LIBRARIES(thanote ${GTK3_LIBRARIES} ${CONAN_LIBS})
+TARGET_LINK_LIBRARIES(thanote ${GTK3_LIBRARIES} ${CONAN_LIBS} pecc)
 
 # to help find the include paths we are leveraging CMAKE and let it generate the compile_commands.json for us.
 # dont forget to let vscode know where to find it
@@ -49,6 +53,7 @@ TARGET_COMPILE_FEATURES(tests PRIVATE 	cxx_auto_type
 										cxx_std_17
 										)
 
-TARGET_LINK_LIBRARIES(tests ${CONAN_LIBS})
+TARGET_LINK_LIBRARIES(tests ${CONAN_LIBS} pecc)
 # TARGET_LINK_LIBRARIES(test ${CONAN_LIBS_GTEST}) //todo herausfinden warum das nicht ausreicht
 ADD_TEST(Tests bin/tests)
+ADD_TEST(pecc_lib_tests bin/pecc_lib_tests)
