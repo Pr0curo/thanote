@@ -4,8 +4,15 @@
 
 #include "ThanoteApplication.h"
 
+#include "pecc.h"
+
 int main(int argc, char *argv[])
 {
+    std::string test;
+    peccer(test);
+    std::cout << test;
+
+
     plog::init(plog::debug, "thanote.log");
 
     PLOGD << "========================== starting thanote ==========================";
