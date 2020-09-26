@@ -11,15 +11,9 @@ public:
     virtual ~MainWindow();
 
 protected:
-    // overrides the default signal handlers
-    // void on_startup() override;
-
-    void SetupMenu();
-
     //Signal handlers:
     void on_button_quit();
     void on_button_add_item();
-
 
     //Child widgets:
     Gtk::Box m_VBox;
