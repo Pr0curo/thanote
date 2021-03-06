@@ -1,3 +1,3 @@
 cd build
-ctest . --verbose
+ctest . -l -v high
 cd ..

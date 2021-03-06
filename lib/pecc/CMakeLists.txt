@@ -14,6 +14,6 @@ target_include_directories(pecc
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
-ADD_EXECUTABLE(pecc_lib_tests 	tests/pecc_tests.cpp )
+ADD_EXECUTABLE(pecc_lib_tests 	tests/pecc_tests.cpp tests/pecc_tests2.cpp )
 TARGET_LINK_LIBRARIES(pecc_lib_tests  pecc)
 
